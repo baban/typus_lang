@@ -1,0 +1,19 @@
+# German (de) translations for Typus by:
+# - Michael Grunewalder <http://michael.grunewalder.com>
+
+ja:
+  activerecord:
+    models:
+      admin_user: 管理者ユーザー
+    attributes:
+      admin_user:
+        first_name: 名字
+        last_name: 名前
+        role: 権限
+        email: E-mail
+        status: 状態
+        salt: SALT
+        password: パスワード
+        password_confirmation: パスワード(確認)
+        crypted_password: ログインパスワード
+        locale: 言語

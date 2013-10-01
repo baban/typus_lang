@@ -1,0 +1,88 @@
+# <locale> translations for Typus
+# - <your_name> <contact_form>
+
+ja:
+  "Actions":
+  "Active": "有効"
+  "Admin": "管理者ユーザー"
+  "Add":
+  "Add New": "新規作成"
+  "Application": "アプリケーション"
+  "All": "すぺて"
+  "Are you sure?":
+  "Are you sure you want to sign out and end your session?": "ログアウトしますか?"
+
+  "Change %{attribute}?": "『%{attribute}』の状態を変更しますか?"
+  "Create %{resource}":
+
+  "Dashboard": ダッシュボード
+  "Down":
+
+  "Edit": "編集"
+  "Enter your email below to create the first user": "最初のユーザを作成します、あなたのメールアドレスを入力して下さい"
+
+  "False": False
+  "Filter": "フィルター"
+
+  "I remember my password": "パスワードを思い出した時はコチラ"
+  "If you didn't request a password update, you can ignore this message":
+  "If you have made any changes to the fields without clicking the Save/Update entry button, your changes will be lost":
+  "Inactive": "無効"
+
+  "Last few days":
+  "Last 30 days":
+  "Last 7 days":
+  "Logged in as": "ユーザー名"
+  "Login": "ログイン"
+
+  "New": "作成"
+  "New %{resource}":
+  "Next": "次のページへ"
+  "No %{resources} found": "『%{resources}』テーブルのデータは見つかりませんでした"
+
+  "Password recovery link sent to your email": "入力したメールアドレス宛にメールを遅らせていただきました。送られたメールのリンクに従ってパスワードを更新して下さい"
+  "Please set a new password": "新しいパスワードを入力して下さい"
+  "Previous": "前のページへ"
+
+  "Record moved %{to}":
+  "Recover password": "パスワードを忘れたとき"
+  "Remove":
+  "Remove %{resource}?":
+  "Reset password":
+  "Resources":
+
+  "Save %{resource}":
+  "Save and add another": "保存して次のデータを作る"
+  "Save and continue editing": "保存して編集を続ける"
+  "Save": "保存"
+  "Search": "検索"
+  "Show": "表示"
+  "Show all dates":
+  "Show by %{attribute}": "『%{attribute}』で絞り込む"
+  "Show %{resource}":
+  "Sign in": "ログイン"
+  "Sign out": "ログアウト"
+  "Sign up":
+  "System Users Administration":
+  "Submit": "OK"
+
+  "Today":
+  "Trash": "削除"
+  "True": True
+
+  "Unrelate":
+  "Up":
+
+  "View all %{attribute}":
+  "View site":
+
+  "You can update your password at":
+  "You can't change your role":
+  "You can't toggle your status":
+
+  "%{errors} prohibited this page from being saved:": "このコンテンツの編集は禁止されています"
+  "%{model} successfully created": "%{model} のデータを作成しました"
+  "%{model} successfully removed": "%{model} のデータを削除しました"
+  "%{model} successfully updated": "%{model} のデータを更新しました"
+
+  "PowerColumn": "コラム"
