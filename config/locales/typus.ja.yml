@@ -3,12 +3,12 @@
 
 ja:
   "Actions":
-  "Active": "有効"
-  "Admin": "管理者ユーザー"
-  "Add":
-  "Add New": "新規作成"
-  "Application": "アプリケーション"
-  "All": "すぺて"
+  "Active": 有効
+  "Admin": 管理者ユーザー
+  "Add": 新規作成
+  "Add New": 新規作成
+  "Application": アプリケーション
+  "All": すぺて
   "Are you sure?":
   "Are you sure you want to sign out and end your session?": "ログアウトしますか?"
 
@@ -16,13 +16,14 @@ ja:
   "Create %{resource}":
 
   "Dashboard": ダッシュボード
+  "Destroy": 削除
   "Down":
 
-  "Edit": "編集"
+  "Edit": 編集
   "Enter your email below to create the first user": "最初のユーザを作成します、あなたのメールアドレスを入力して下さい"
 
   "False": False
-  "Filter": "フィルター"
+  "Filter": フィルター
 
   "I remember my password": "パスワードを思い出した時はコチラ"
   "If you didn't request a password update, you can ignore this message":
@@ -35,7 +36,7 @@ ja:
   "Logged in as": "ユーザー名"
   "Login": "ログイン"
 
-  "New": "作成"
+  "New": 作成
   "New %{resource}":
   "Next": "次のページへ"
   "No %{resources} found": "『%{resources}』テーブルのデータは見つかりませんでした"
@@ -67,7 +68,7 @@ ja:
   "Submit": "OK"
 
   "Today":
-  "Trash": "削除"
+  "Trash": 削除
   "True": True
 
   "Unrelate":
@@ -84,5 +85,3 @@ ja:
   "%{model} successfully created": "%{model} のデータを作成しました"
   "%{model} successfully removed": "%{model} のデータを削除しました"
   "%{model} successfully updated": "%{model} のデータを更新しました"
-
-  "PowerColumn": "コラム"
