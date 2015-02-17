@@ -1,18 +1,18 @@
+# 概要
 
-railsで使われているものでも著名な管理画面作成ツールのtypusを日本語対応サせるための
+railsで使われているものでも著名な管理画面作成ツールのtypusを日本語対応させるための
 languageファイルです
 
-https://github.com/fesplugas/typus
+ * https://github.com/fesplugas/typus
 
 ファイル自体は単純ですが
 各翻訳が何処で使われているのか特定するのが面倒くさいので
 この際翻訳ファイルを公開して、他の方々にツメの部分を協力していただこうと思って
 公開に踏み切らせていただきました
 
-もう少し完成度が上がったら、typus本体にpull request投げさせていただきます
+※　このファイルはtypus3系向けに開発しました。現在github上で開発が進んでいる４系に関しては現在準備中です
 
-
-インストール方法
+### インストール方法
 
 ファイルは３つだけなので、これを貴方のrailsアプリケーションの対応するディレクトリに配置します
 
@@ -28,16 +28,14 @@ lib/typus_extention.rb
 
 具体的には
 
-config/initializers/development.rb
+ * config/initializers/development.rb
 
 の行頭に
 
-    require "typus_extention"
+```rb
+require "typus_extention"
+```
 
 を書いて下さい
 
 そのあと貴方のrails アプリケーションを起動すると、日本語設定が適応されています
-
-
-
-
