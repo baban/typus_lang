@@ -14,6 +14,9 @@ ja:
         recover_password: "Recover password"
 
   typus:
+    actions:
+      destroy: "削除"
+
     dashboard: 'Dashboard'
 
     # this is a catch-all for stuff I didn't know where else to put.
@@ -25,22 +28,23 @@ ja:
       restore_question: 'Restore?'
 
     buttons:
-      add: "追加"
-      save: '保存'
-      save_addanother: '保存して新規作成'
-      save_continue: '保存して再編集'
-      filter: "フィルター"
-      list: "一覧"
-      sign_in: "ログイン"
-      sign_up: "ユーザー登録"
-      sign_out: "ログアウト"
-      show: "表示"
-      edit: "編集"
+      add: 追加
+      save: 保存
+      save_addanother: 保存して次へ
+      save_continue: 保存して編集を続ける
+      filter: フィルター
+      list: 一覧
+      sign_in: ログイン
+      sign_up: 新規入会
+      sign_out: ログアウト
+      show: 表示
+      edit: 編集
       remove: "Remove"
       preview: "Preview"
       apply: "Apply"
+      send: "Send"
       restore: "Restore"
-      destroy: "破棄"
+      destroy: 削除
       destroy_permanently: "Destroy permanently"
       position: "Position"
       move_to_trash: "Move to Trash"
@@ -67,17 +71,17 @@ ja:
 
     errors:
       intro:
-        one: "データの保存に失敗しました:"
+        one: "エラーが発生ました、データの保存が出来ていません:"
         other: "%{count} 件のエラーが発生しました:"
 
     dashboard:
-      title: "ダッシュボード"
+      title: ダッシュボード
       model: "Model"
       model_name: "Model Name"
       items: "Items"
-      actions: "アクション"
+      actions: アクション
       no_applications: "No applications detected."
-      user: "User"
+      user: ユーザー
       user: "Users"
       status: "Status"
       last_logged_in: "Last logged in"
@@ -94,24 +98,34 @@ ja:
       edited_recently:
         title: "Edited recently"
       destroy:
-        title: "破棄 %{label}"
+        title: "削除: %{label}"
+
+    accounts:
+      new:
+        title: "Sign up"
+      forgot_password:
+        title: "Forgot password"
+      remember_password: "I remember my password"
 
     sessions:
+      initial_user_registration_message: "Enter your email below to create the first user."
+      recover_password: "Recover password"
       new:
         title: "Sign in"
 
     pagination:
-      previous: "&larr; Previous"
-      next: "Next &rarr;"
+      previous: "&larr; 前"
+      next: "次 &rarr;"
 
     sidebar:
-      filters: "フィルター"
+      filters: "Filters"
       scopes: "Scopes"
-      export: "エクスポート"
-      entry: "操作"
-      actions: "アクション"
+      export: エクスポート
+      entry: 操作
+      actions: アクション
       view_site: "View site"
-      search: "検索"
+      search: 検索
+      search_placeholder: "検索 ..."
 
     labels:
       read_only: "Read only"
