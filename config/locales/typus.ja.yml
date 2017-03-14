@@ -22,9 +22,9 @@ ja:
     # this is a catch-all for stuff I didn't know where else to put.
     shared:
       no_entries_found: "該当する記事がありません。"
-      help: "Help"
+      help: "ヘルプ"
       settings: "設定"
-      confirm_question: "Are you sure?"
+      confirm_question: "本当にいいですか?"
       restore_question: 'Restore?'
 
     buttons:
